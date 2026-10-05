@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Blog preview card</title>
+  <style>
+    body {
+      background-color: #f4d04e;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+      height: 100vh;
+    }
+
+    main {
+      display: block;
+      padding: 18px;
+      width: 27%;
+      background-color: white;
+      border-radius: 10px;
+      margin: auto;
+      box-shadow: 7px 7px black;
+    }
+
+    .illustration {
+      border-radius: 10px;
+      align-self: center;
+      width: 100%;
+    }
+
+    .learning {
+      background-color: #f4d04e;
+      width: max-content;
+      padding: 5px;
+      font-weight: 600;
+    }
+
+    h2 a {
+      text-decoration: none;
+      color: black;
+    }
+
+    h2 a:hover {
+      color: #f4d04e;
+    }
+
+    .text {
+      opacity: 60%;
+      line-height: 25px;
+    }
+
+    .image-author {
+      width: 12%;
+    }
+
+    .author {
+      display: flex;
+      font-weight: 600;
+      column-gap: 4%;
+    }
+
+    .attribution {
+      font-size: 0.6rem;
+      width: 30%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <img class="illustration" src="images/illustration-article.svg">
+    <p class="learning">Learning</p>
+    <p class="published">Published 21 Dec 2023</p>
+    <h2><a href="#">HTML & CSS foundations</a></h2>
+    <p class="text">
+      These languages are the backbone of every website, defining structure, content, and presentation.
+    </p>
+    <div class="author">
+      <img class="image-author" src="images/image-avatar.webp">
+      <p>Greg Hooper</p>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/leandro-90" target="_blank">Leandro Ferreira</a>.
+  </footer>
+</body>
+
+</html>
